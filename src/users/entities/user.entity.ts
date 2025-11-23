@@ -56,6 +56,9 @@ export class User {
     tipo: string;
   };
 
+  @Column({ length: 50 })
+  ip: string;
+
   @Column({ type: 'jsonb' })
   endereco: {
     rua: string;
