@@ -1,3 +1,3 @@
-# Dadosprontos
+# Dados prontos
 
-API de dados prontos inspirado no site https://dummyjson.com/
+API Brasileira de dados prontos, projeto totalmente inspirado no site https://dummyjson.com/

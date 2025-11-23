@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "nome": "Lucas",
+    "sobrenome": "Oliveira",
+    "idade": 32,
+    "sexo": "masculino",
+    "email": "lucas.oliveira@email.com.br",
+    "telefone": "+55 19 98765-4321",
+    "nome_usuario": "lucaso",
+    "senha": "lucas@2024",
+    "data_nascimento": "15-03-1992",
+    "tipo_sanguineo": "A+",
+    "altura": 178.5,
+    "peso": 82.3,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Preto",
+      "tipo": "Ondulado"
+    },
+    "ip": "189.45.112.78",
+    "endereco": {
+      "rua": "Rua das Acácias, 234",
+      "cidade": "Campinas",
+      "estado": "São Paulo",
+      "sigla_estado": "SP",
+      "cep": "13024-450",
+      "coordenadas": {
+        "latitude": -22.9099,
+        "longitude": -47.0626
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "a4:5e:60:c2:8f:1a",
+    "faculdade": "Universidade Estadual de Campinas",
+    "banco": {
+      "cartao_expiracao": "08/27",
+      "cartao_numero": "5412751234567890",
+      "cartao_tipo": "Mastercard",
+      "moeda": "BRL",
+      "iban": "BR1234567890123456789012345C1"
+    },
+    "empresa": {
+      "departamento": "Tecnologia",
+      "nome": "Silva & Associados Ltda",
+      "cargo": "Desenvolvedor Senior",
+      "endereco": {
+        "rua": "Avenida Paulista, 1578",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "sigla_estado": "SP",
+        "cep": "01310-200",
+        "coordenadas": {
+          "lat": -23.5629,
+          "lng": -46.6544
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "123-456",
+    "ssn": "123.456.789-00",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "cripto": {
+      "moeda": "Bitcoin",
+      "carteira": "0x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t",
+      "rede": "Ethereum (ERC20)"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 2,
+    "nome": "Mariana",
+    "sobrenome": "Costa",
+    "idade": 27,
+    "sexo": "feminino",
+    "email": "mariana.costa@email.com.br",
+    "telefone": "+55 21 97654-3210",
+    "nome_usuario": "marianac",
+    "senha": "mari@costa123",
+    "data_nascimento": "22-11-1997",
+    "tipo_sanguineo": "B+",
+    "altura": 165.0,
+    "peso": 58.5,
+    "cor_olho": "Verde",
+    "cabelo": {
+      "cor": "Castanho",
+      "tipo": "Cacheado"
+    },
+    "ip": "177.83.201.45",
+    "endereco": {
+      "rua": "Rua Barão de Itapetininga, 567",
+      "cidade": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "sigla_estado": "RJ",
+      "cep": "20031-050",
+      "coordenadas": {
+        "latitude": -22.9068,
+        "longitude": -43.1729
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "b8:27:eb:45:6c:2d",
+    "faculdade": "Universidade Federal do Rio de Janeiro",
+    "banco": {
+      "cartao_expiracao": "12/26",
+      "cartao_numero": "4532123456789012",
+      "cartao_tipo": "Visa",
+      "moeda": "BRL",
+      "iban": "BR9876543210987654321098765C2"
+    },
+    "empresa": {
+      "departamento": "Marketing",
+      "nome": "Costa & Ferreira Comunicação",
+      "cargo": "Analista de Marketing",
+      "endereco": {
+        "rua": "Avenida Rio Branco, 156",
+        "cidade": "Rio de Janeiro",
+        "estado": "Rio de Janeiro",
+        "sigla_estado": "RJ",
+        "cep": "20040-001",
+        "coordenadas": {
+          "lat": -22.8974,
+          "lng": -43.1803
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "234-567",
+    "ssn": "234.567.890-11",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "cripto": {
+      "moeda": "Ethereum",
+      "carteira": "0x9s8r7q6p5o4n3m2l1k0j9i8h7g6f5e4d3c2b1a0",
+      "rede": "Ethereum (ERC20)"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 3,
+    "nome": "Rafael",
+    "sobrenome": "Santos",
+    "idade": 35,
+    "sexo": "masculino",
+    "email": "rafael.santos@email.com.br",
+    "telefone": "+55 11 96543-2109",
+    "nome_usuario": "rafaels",
+    "senha": "rafa@santos456",
+    "data_nascimento": "08-07-1989",
+    "tipo_sanguineo": "O+",
+    "altura": 185.2,
+    "peso": 90.1,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Preto",
+      "tipo": "Liso"
+    },
+    "ip": "200.142.78.90",
+    "endereco": {
+      "rua": "Alameda Santos, 1293",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "sigla_estado": "SP",
+      "cep": "01419-001",
+      "coordenadas": {
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "dc:a6:32:1f:8b:9e",
+    "faculdade": "Universidade de São Paulo",
+    "banco": {
+      "cartao_expiracao": "03/28",
+      "cartao_numero": "6011123456789012",
+      "cartao_tipo": "Discover",
+      "moeda": "BRL",
+      "iban": "BR5432109876543210987654321C3"
+    },
+    "empresa": {
+      "departamento": "Financeiro",
+      "nome": "Santos & Rodrigues Investimentos",
+      "cargo": "Gerente Financeiro",
+      "endereco": {
+        "rua": "Avenida Faria Lima, 3064",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "sigla_estado": "SP",
+        "cep": "01452-000",
+        "coordenadas": {
+          "lat": -23.5781,
+          "lng": -46.6838
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "345-678",
+    "ssn": "345.678.901-22",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "cripto": {
+      "moeda": "Litecoin",
+      "carteira": "0x2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
+      "rede": "Litecoin"
+    },
+    "funcao": "gerente"
+  },
+  {
+    "id": 4,
+    "nome": "Juliana",
+    "sobrenome": "Ferreira",
+    "idade": 29,
+    "sexo": "feminino",
+    "email": "juliana.ferreira@email.com.br",
+    "telefone": "+55 31 95432-1098",
+    "nome_usuario": "julianaf",
+    "senha": "juli@2024",
+    "data_nascimento": "19-04-1995",
+    "tipo_sanguineo": "AB+",
+    "altura": 170.8,
+    "peso": 62.4,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Ruivo",
+      "tipo": "Ondulado"
+    },
+    "ip": "191.56.234.12",
+    "endereco": {
+      "rua": "Rua da Bahia, 1148",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "sigla_estado": "MG",
+      "cep": "30160-011",
+      "coordenadas": {
+        "latitude": -19.9191,
+        "longitude": -43.9386
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "e4:5f:01:a3:7d:2c",
+    "faculdade": "Universidade Federal de Minas Gerais",
+    "banco": {
+      "cartao_expiracao": "09/27",
+      "cartao_numero": "3782123456789012",
+      "cartao_tipo": "American Express",
+      "moeda": "BRL",
+      "iban": "BR1122334455667788990011223C4"
+    },
+    "empresa": {
+      "departamento": "Recursos Humanos",
+      "nome": "Ferreira & Lima Consultoria",
+      "cargo": "Analista de RH",
+      "endereco": {
+        "rua": "Avenida Afonso Pena, 867",
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "sigla_estado": "MG",
+        "cep": "30130-002",
+        "coordenadas": {
+          "lat": -19.9227,
+          "lng": -43.945
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "456-789",
+    "ssn": "456.789.012-33",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0",
+    "cripto": {
+      "moeda": "Cardano",
+      "carteira": "0x3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v",
+      "rede": "Cardano"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 5,
+    "nome": "Pedro",
+    "sobrenome": "Almeida",
+    "idade": 41,
+    "sexo": "masculino",
+    "email": "pedro.almeida@email.com.br",
+    "telefone": "+55 85 94321-0987",
+    "nome_usuario": "pedroa",
+    "senha": "pedro@almeida789",
+    "data_nascimento": "12-09-1983",
+    "tipo_sanguineo": "A-",
+    "altura": 172.3,
+    "peso": 75.8,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Grisalho",
+      "tipo": "Liso"
+    },
+    "ip": "179.98.145.67",
+    "endereco": {
+      "rua": "Avenida Beira Mar, 3980",
+      "cidade": "Fortaleza",
+      "estado": "Ceará",
+      "sigla_estado": "CE",
+      "cep": "60165-121",
+      "coordenadas": {
+        "latitude": -3.7319,
+        "longitude": -38.5267
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "f6:7e:92:b4:5c:3a",
+    "faculdade": "Universidade Federal do Ceará",
+    "banco": {
+      "cartao_expiracao": "06/29",
+      "cartao_numero": "5105123456789012",
+      "cartao_tipo": "Mastercard",
+      "moeda": "BRL",
+      "iban": "BR9988776655443322110099887C5"
+    },
+    "empresa": {
+      "departamento": "Operações",
+      "nome": "Almeida Transportes Ltda",
+      "cargo": "Coordenador de Operações",
+      "endereco": {
+        "rua": "Rua Barão do Rio Branco, 1555",
+        "cidade": "Fortaleza",
+        "estado": "Ceará",
+        "sigla_estado": "CE",
+        "cep": "60025-061",
+        "coordenadas": {
+          "lat": -3.7284,
+          "lng": -38.5233
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "567-890",
+    "ssn": "567.890.123-44",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "cripto": {
+      "moeda": "Ripple",
+      "carteira": "0x4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w",
+      "rede": "Ripple"
+    },
+    "funcao": "gerente"
+  },
+  {
+    "id": 6,
+    "nome": "Camila",
+    "sobrenome": "Rodrigues",
+    "idade": 25,
+    "sexo": "feminino",
+    "email": "camila.rodrigues@email.com.br",
+    "telefone": "+55 51 93210-9876",
+    "nome_usuario": "camilar",
+    "senha": "camila@2024",
+    "data_nascimento": "05-02-1999",
+    "tipo_sanguineo": "O-",
+    "altura": 162.5,
+    "peso": 55.2,
+    "cor_olho": "Azul",
+    "cabelo": {
+      "cor": "Loiro",
+      "tipo": "Liso"
+    },
+    "ip": "201.23.67.89",
+    "endereco": {
+      "rua": "Rua dos Andradas, 1234",
+      "cidade": "Porto Alegre",
+      "estado": "Rio Grande do Sul",
+      "sigla_estado": "RS",
+      "cep": "90020-008",
+      "coordenadas": {
+        "latitude": -30.0346,
+        "longitude": -51.2177
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "a2:3b:4c:5d:6e:7f",
+    "faculdade": "Pontifícia Universidade Católica do Rio Grande do Sul",
+    "banco": {
+      "cartao_expiracao": "11/26",
+      "cartao_numero": "4916123456789012",
+      "cartao_tipo": "Visa",
+      "moeda": "BRL",
+      "iban": "BR7766554433221100998877665C6"
+    },
+    "empresa": {
+      "departamento": "Design",
+      "nome": "Rodrigues & Castro Design Studio",
+      "cargo": "Designer Gráfico",
+      "endereco": {
+        "rua": "Avenida Ipiranga, 6681",
+        "cidade": "Porto Alegre",
+        "estado": "Rio Grande do Sul",
+        "sigla_estado": "RS",
+        "cep": "90619-900",
+        "coordenadas": {
+          "lat": -30.0611,
+          "lng": -51.1732
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "678-901",
+    "ssn": "678.901.234-55",
+    "userAgent": "Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "cripto": {
+      "moeda": "Polygon",
+      "carteira": "0x5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x",
+      "rede": "Polygon"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 7,
+    "nome": "Thiago",
+    "sobrenome": "Martins",
+    "idade": 38,
+    "sexo": "masculino",
+    "email": "thiago.martins@email.com.br",
+    "telefone": "+55 71 92109-8765",
+    "nome_usuario": "thiagom",
+    "senha": "thiago@martins321",
+    "data_nascimento": "28-06-1986",
+    "tipo_sanguineo": "B-",
+    "altura": 180.7,
+    "peso": 88.5,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Preto",
+      "tipo": "Cacheado"
+    },
+    "ip": "187.34.156.23",
+    "endereco": {
+      "rua": "Avenida Sete de Setembro, 2789",
+      "cidade": "Salvador",
+      "estado": "Bahia",
+      "sigla_estado": "BA",
+      "cep": "40080-001",
+      "coordenadas": {
+        "latitude": -12.9777,
+        "longitude": -38.5016
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "c8:9a:1b:2c:3d:4e",
+    "faculdade": "Universidade Federal da Bahia",
+    "banco": {
+      "cartao_expiracao": "04/28",
+      "cartao_numero": "3530123456789012",
+      "cartao_tipo": "JCB",
+      "moeda": "BRL",
+      "iban": "BR5544332211009988776655443C7"
+    },
+    "empresa": {
+      "departamento": "Vendas",
+      "nome": "Martins & Souza Comércio",
+      "cargo": "Gerente de Vendas",
+      "endereco": {
+        "rua": "Rua Chile, 23",
+        "cidade": "Salvador",
+        "estado": "Bahia",
+        "sigla_estado": "BA",
+        "cep": "40020-000",
+        "coordenadas": {
+          "lat": -12.9714,
+          "lng": -38.5124
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "789-012",
+    "ssn": "789.012.345-66",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/119.0.0.0 Safari/537.36",
+    "cripto": {
+      "moeda": "Solana",
+      "carteira": "0x6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y",
+      "rede": "Solana"
+    },
+    "funcao": "gerente"
+  },
+  {
+    "id": 8,
+    "nome": "Beatriz",
+    "sobrenome": "Lima",
+    "idade": 31,
+    "sexo": "feminino",
+    "email": "beatriz.lima@email.com.br",
+    "telefone": "+55 81 91098-7654",
+    "nome_usuario": "beatrizl",
+    "senha": "bia@lima654",
+    "data_nascimento": "14-12-1993",
+    "tipo_sanguineo": "A+",
+    "altura": 168.3,
+    "peso": 60.9,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Castanho",
+      "tipo": "Liso"
+    },
+    "ip": "186.217.89.45",
+    "endereco": {
+      "rua": "Avenida Boa Viagem, 5426",
+      "cidade": "Recife",
+      "estado": "Pernambuco",
+      "sigla_estado": "PE",
+      "cep": "51021-000",
+      "coordenadas": {
+        "latitude": -8.0476,
+        "longitude": -34.877
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "d4:5a:6b:7c:8d:9e",
+    "faculdade": "Universidade Federal de Pernambuco",
+    "banco": {
+      "cartao_expiracao": "07/27",
+      "cartao_numero": "6304123456789012",
+      "cartao_tipo": "Maestro",
+      "moeda": "BRL",
+      "iban": "BR3322110099887766554433221C8"
+    },
+    "empresa": {
+      "departamento": "Jurídico",
+      "nome": "Lima & Barbosa Advocacia",
+      "cargo": "Advogada",
+      "endereco": {
+        "rua": "Rua do Imperador, 731",
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "sigla_estado": "PE",
+        "cep": "50020-470",
+        "coordenadas": {
+          "lat": -8.0634,
+          "lng": -34.8711
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "890-123",
+    "ssn": "890.123.456-77",
+    "userAgent": "Mozilla/5.0 (Android 13; Mobile; rv:109.0) Gecko/119.0 Firefox/119.0",
+    "cripto": {
+      "moeda": "Dogecoin",
+      "carteira": "0x7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z",
+      "rede": "Dogecoin"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 9,
+    "nome": "Gabriel",
+    "sobrenome": "Pereira",
+    "idade": 28,
+    "sexo": "masculino",
+    "email": "gabriel.pereira@email.com.br",
+    "telefone": "+55 41 90987-6543",
+    "nome_usuario": "gabrielp",
+    "senha": "gabriel@2024",
+    "data_nascimento": "03-10-1996",
+    "tipo_sanguineo": "O+",
+    "altura": 175.9,
+    "peso": 78.4,
+    "cor_olho": "Verde",
+    "cabelo": {
+      "cor": "Castanho",
+      "tipo": "Ondulado"
+    },
+    "ip": "200.98.234.56",
+    "endereco": {
+      "rua": "Rua XV de Novembro, 987",
+      "cidade": "Curitiba",
+      "estado": "Paraná",
+      "sigla_estado": "PR",
+      "cep": "80020-310",
+      "coordenadas": {
+        "latitude": -25.4284,
+        "longitude": -49.2733
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "e8:6b:7c:8d:9e:0f",
+    "faculdade": "Universidade Federal do Paraná",
+    "banco": {
+      "cartao_expiracao": "10/28",
+      "cartao_numero": "4024123456789012",
+      "cartao_tipo": "Visa",
+      "moeda": "BRL",
+      "iban": "BR1100998877665544332211009C9"
+    },
+    "empresa": {
+      "departamento": "Tecnologia",
+      "nome": "Pereira Tech Solutions",
+      "cargo": "Analista de Sistemas",
+      "endereco": {
+        "rua": "Avenida Cândido de Abreu, 526",
+        "cidade": "Curitiba",
+        "estado": "Paraná",
+        "sigla_estado": "PR",
+        "cep": "80530-000",
+        "coordenadas": {
+          "lat": -25.4372,
+          "lng": -49.2699
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "901-234",
+    "ssn": "901.234.567-88",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "cripto": {
+      "moeda": "Tether",
+      "carteira": "0x8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a",
+      "rede": "Ethereum (ERC20)"
+    },
+    "funcao": "usuario"
+  },
+  {
+    "id": 10,
+    "nome": "Amanda",
+    "sobrenome": "Sousa",
+    "idade": 33,
+    "sexo": "feminino",
+    "email": "amanda.sousa@email.com.br",
+    "telefone": "+55 62 99876-5432",
+    "nome_usuario": "amandas",
+    "senha": "amanda@sousa987",
+    "data_nascimento": "17-08-1991",
+    "tipo_sanguineo": "AB-",
+    "altura": 171.2,
+    "peso": 64.7,
+    "cor_olho": "Castanho",
+    "cabelo": {
+      "cor": "Preto",
+      "tipo": "Cacheado"
+    },
+    "ip": "177.45.189.23",
+    "endereco": {
+      "rua": "Avenida Goiás, 2153",
+      "cidade": "Goiânia",
+      "estado": "Goiás",
+      "sigla_estado": "GO",
+      "cep": "74063-010",
+      "coordenadas": {
+        "latitude": -16.6869,
+        "longitude": -49.2648
+      },
+      "país": "Brasil"
+    },
+    "enderecoMac": "f2:7c:8d:9e:0f:1a",
+    "faculdade": "Universidade Federal de Goiás",
+    "banco": {
+      "cartao_expiracao": "02/29",
+      "cartao_numero": "5200123456789012",
+      "cartao_tipo": "Mastercard",
+      "moeda": "BRL",
+      "iban": "BR9988776655443322110099881C0"
+    },
+    "empresa": {
+      "departamento": "Contabilidade",
+      "nome": "Sousa & Mendes Contabilidade",
+      "cargo": "Contadora",
+      "endereco": {
+        "rua": "Rua 7, 855",
+        "cidade": "Goiânia",
+        "estado": "Goiás",
+        "sigla_estado": "GO",
+        "cep": "74043-050",
+        "coordenadas": {
+          "lat": -16.6799,
+          "lng": -49.2553
+        },
+        "país": "Brasil"
+      }
+    },
+    "ein": "012-345",
+    "ssn": "012.345.678-99",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "cripto": {
+      "moeda": "Binance Coin",
+      "carteira": "0x9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b",
+      "rede": "Binance Smart Chain"
+    },
+    "funcao": "administrador"
+  }
+]
