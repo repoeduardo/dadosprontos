@@ -1,0 +1,25 @@
+# Usuarios 
+
+### Unico usuário
+GET http://localhost:3000/usuarios/3
+
+### Todos os usuários
+GET http://localhost:3000/usuarios/
+
+### Usuários aleatórios
+GET http://localhost:3000/usuarios/aleatorios
+
+### Todos os campos
+GET http://localhost:3000/usuarios?limite=10&pulo=0
+
+### Apenas nome e sobrenome
+GET http://localhost:3000/usuarios?selecione=nome,sobrenome
+
+### Campos específicos
+GET http://localhost:3000/usuarios?limite=10&pulo=0&selecione=nome,sobrenome,email
+
+### Todos os usuários com campos específicos
+GET http://localhost:3000/usuarios?limite=0&selecione=nome,idade
+
+### Segunda página com campos específicos
+GET http://localhost:3000/usuarios?limite=10&pulo=10&selecione=nome,email,telefone
