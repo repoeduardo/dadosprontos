@@ -12,8 +12,7 @@ export class UsersController {
   ) {
     const limit = limite ? parseInt(limite, 10) : 10;
     const skip = pulo ? parseInt(pulo, 10) : 0;
-    const select = String(selecione);
-    return this.usersService.findAll(limit, skip, select);
+    return this.usersService.findAll(limit, skip, selecione);
   }
   @Get('aleatorios')
   findRandom() {
