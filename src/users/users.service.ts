@@ -28,40 +28,7 @@ export class UsersService {
 
     // Se passar select, aplica os campos específicos
     if (select) {
-      const fields = select.split(',').map((field) => field.trim());
-
-      // Pega os campos válidos do metadata da entidade
-      const metadata = this.userRepository.metadata;
-      const validFields = metadata.columns.map((col) => col.propertyName);
-
-      // Valida campos
-      const invalidFields = fields.filter(
-        (field) => !validFields.includes(field),
-      );
-      if (invalidFields.length > 0) {
-        throw new BadRequestException(
-          `Campos inválidos: ${invalidFields.join(', ')}`,
-        );
-      }
-
-      /* Campos sensíveis que não podem ser selecionados -> verificar depois se faz sentido ativar esse:
-      const camposSensiveis = ['senha'];
-      const camposProibidos = campos.filter((campo) =>
-        camposSensiveis.includes(campo),
-      );
-
-      if (camposProibidos.length > 0) {
-        throw new BadRequestException(
-          `Não é permitido selecionar campos sensíveis: ${camposProibidos.join(', ')}`,
-        );
-      }
-        */
-
-      // Sempre incluir o ID
-      if (!fields.includes('id')) {
-        fields.unshift('id');
-      }
-
+      const fields = this.validateAndGetFields(select);
       queryBuilder.select(fields.map((field) => `user.${field}`));
     }
 
@@ -92,6 +59,102 @@ export class UsersService {
       pulo: skip,
       paginas: Math.ceil(total / secureLimit),
       pagina_atual: Math.floor(skip / secureLimit) + 1,
+    };
+  }
+
+  async filterBy(
+    key: string,
+    value: string,
+    limit: number = 10,
+    skip: number = 0,
+    select?: string,
+  ) {
+    if (limit < 0 || skip < 0) {
+      throw new BadRequestException(
+        'Limite e pulo devem ser números positivos',
+      );
+    }
+
+    const MAX_LIMIT = 50;
+    const queryBuilder = this.userRepository.createQueryBuilder('user');
+
+    // Aplicar seleção de campos se fornecido
+    if (select) {
+      const fields = this.validateAndGetFields(select);
+      queryBuilder.select(fields.map((field) => `user.${field}`));
+    }
+
+    // Lógica do Filtro Dinâmico
+    const parts = key.split('.');
+
+    if (parts.length === 1) {
+      // Campo simples: WHERE user.nome = :value
+      const metadata = this.userRepository.metadata;
+      const validFields = metadata.columns.map((col) => col.propertyName);
+
+      if (!validFields.includes(key)) {
+        throw new BadRequestException(`Campo inválido: ${key}`);
+      }
+
+      queryBuilder.where(`user.${key} = :value`, { value });
+    } else if (parts.length === 2) {
+      // Campo aninhado JSON: WHERE user.cabelo->>'cor' = :value
+      const [parentField, childField] = parts;
+
+      const metadata = this.userRepository.metadata;
+      const validFields = metadata.columns.map((col) => col.propertyName);
+
+      if (!validFields.includes(parentField)) {
+        throw new BadRequestException(`Campo inválido: ${parentField}`);
+      }
+
+      // Verifica se o campo é do tipo JSON
+      const column = metadata.columns.find(
+        (col) => col.propertyName === parentField,
+      );
+
+      if (!column || (column.type !== 'json' && column.type !== 'jsonb')) {
+        throw new BadRequestException(
+          `O campo ${parentField} não é do tipo JSON`,
+        );
+      }
+
+      // Usando operador JSON do PostgreSQL/MySQL
+      queryBuilder.where(`user.${parentField} ->> :childField = :value`, {
+        childField,
+        value,
+      });
+    } else {
+      throw new BadRequestException(
+        'Formato de chave inválido. Use "campo" ou "campo.subcampo"',
+      );
+    }
+
+    const total = await queryBuilder.getCount();
+
+    // Retornar todos se limite = 0
+    if (limit === 0) {
+      const users = await queryBuilder.getMany();
+      return {
+        usuarios: users,
+        total_de_registros: total,
+        limite: 0,
+        pulo: 0,
+        filtro: { chave: key, valor: value },
+      };
+    }
+
+    const secureLimit = Math.min(limit, MAX_LIMIT);
+    const users = await queryBuilder.skip(skip).take(secureLimit).getMany();
+
+    return {
+      usuarios: users,
+      total_de_registros: total,
+      limite: secureLimit,
+      pulo: skip,
+      paginas: Math.ceil(total / secureLimit),
+      pagina_atual: Math.floor(skip / secureLimit) + 1,
+      filtro: { chave: key, valor: value },
     };
   }
 
@@ -140,5 +203,25 @@ export class UsersService {
       throw new NotFoundException();
     }
     return users;
+  }
+  private validateAndGetFields(select: string): string[] {
+    const fields = select.split(',').map((field) => field.trim());
+    const metadata = this.userRepository.metadata;
+    const validFields = metadata.columns.map((col) => col.propertyName);
+
+    const invalidFields = fields.filter(
+      (field) => !validFields.includes(field),
+    );
+    if (invalidFields.length > 0) {
+      throw new BadRequestException(
+        `Campos inválidos: ${invalidFields.join(', ')}`,
+      );
+    }
+
+    if (!fields.includes('id')) {
+      fields.unshift('id');
+    }
+
+    return fields;
   }
 }

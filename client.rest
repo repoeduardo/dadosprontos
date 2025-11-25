@@ -23,3 +23,18 @@ GET http://localhost:3000/usuarios?limite=0&selecione=nome,idade
 
 ### Segunda página com campos específicos
 GET http://localhost:3000/usuarios?limite=10&pulo=10&selecione=nome,email,telefone
+
+### Filtro simples
+GET http://localhost:3000/usuarios/filtrar?chave=nome&valor=Lucas
+
+### Filtro aninhado (JSON)
+GET http://localhost:3000/usuarios/filtrar?chave=cabelo.cor&valor=marrom
+
+### Com paginação
+GET http://localhost:3000/usuarios/filtrar?chave=email&valor=joao@email.com&limite=10&pulo=0
+
+### Com seleção de campos
+GET http://localhost:3000/usuarios/filtrar?chave=cabelo.cor&valor=preto&selecione=nome,email
+
+### Retornar todos os registros filtrados
+GET http://localhost:3000/usuarios/filtrar?chave=idade&valor=25&limite=0
