@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "tarefa": "Escrever redação",
+    "subtarefas": [
+      "ler texto de apoio",
+      "elaborar teses",
+      "elaborar argumentos",
+      "elaborar conclusão"
+    ],
+    "concluido": false,
+    "usuario_id": 3
+  },
+  {
+    "id": 2,
+    "tarefa": "Assistir documentário",
+    "subtarefas": [],
+    "concluido": true,
+    "usuario_id": 5
+  },
+
+  {
+    "id": 3,
+    "tarefa": "Preparar apresentação de projeto",
+    "subtarefas": [
+      "pesquisar informações relevantes",
+      "criar slides",
+      "revisar conteúdo",
+      "praticar apresentação"
+    ],
+    "concluido": false,
+    "usuario_id": 1
+  },
+  {
+    "id": 4,
+    "tarefa": "Estudar capítulos 5 e 6 do livro",
+    "subtarefas": [
+      "ler capítulo 5",
+      "ler capítulo 6",
+      "fazer resumo",
+      "responder questões de revisão"
+    ],
+    "concluido": false,
+    "usuario_id": 2
+  },
+  {
+    "id": 5,
+    "tarefa": "Fazer compras no supermercado",
+    "subtarefas": [
+      "fazer lista de compras",
+      "verificar cupons",
+      "ir ao supermercado",
+      "guardar compras"
+    ],
+    "concluido": true,
+    "usuario_id": 4
+  },
+  {
+    "id": 6,
+    "tarefa": "Organizar documentos pessoais",
+    "subtarefas": [
+      "reunir todos os documentos",
+      "classificar por tipo",
+      "arquivar em pastas",
+      "criar backup digital"
+    ],
+    "concluido": false,
+    "usuario_id": 1
+  },
+  {
+    "id": 7,
+    "tarefa": "Limpar e organizar a casa",
+    "subtarefas": [
+      "limpar sala",
+      "limpar cozinha",
+      "limpar quartos",
+      "organizar sala de estar"
+    ],
+    "concluido": true,
+    "usuario_id": 3
+  },
+  {
+    "id": 8,
+    "tarefa": "Responder emails importantes",
+    "subtarefas": [
+      "ler todos os emails",
+      "priorizar respostas",
+      "responder cada email",
+      "arquivar emails respondidos"
+    ],
+    "concluido": false,
+    "usuario_id": 2
+  },
+  {
+    "id": 9,
+    "tarefa": "Exercitar no parque",
+    "subtarefas": [
+      "aquecer músculos",
+      "correr 5km",
+      "fazer alongamento",
+      "hidratar-se"
+    ],
+    "concluido": true,
+    "usuario_id": 6
+  },
+  {
+    "id": 10,
+    "tarefa": "Revisar código do projeto",
+    "subtarefas": [
+      "ler código completo",
+      "verificar padrões",
+      "testar funcionalidades",
+      "documentar melhorias"
+    ],
+    "concluido": false,
+    "usuario_id": 4
+  },
+  {
+    "id": 11,
+    "tarefa": "Planejar viagem de férias",
+    "subtarefas": [
+      "escolher destino",
+      "pesquisar hospedagem",
+      "comprar passagens",
+      "montar roteiro de passeios"
+    ],
+    "concluido": false,
+    "usuario_id": 5
+  },
+  {
+    "id": 12,
+    "tarefa": "Assistir webinar sobre marketing digital",
+    "subtarefas": [
+      "se registrar no evento",
+      "assistir apresentação",
+      "fazer anotações",
+      "responder questionário final"
+    ],
+    "concluido": true,
+    "usuario_id": 1
+  }
+]

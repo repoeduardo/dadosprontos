@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "titulo": "Teclado Mecânico RGB Pro",
+    "descricao": "Teclado mecânico de alta performance com iluminação RGB personalizável, switches de qualidade premium e design ergonômico para longas sessões de digitação.",
+    "categoria": "eletrônicos",
+    "preco": 349.99,
+    "porcentagem_desconto": 15.0,
+    "avaliacao": 4.8,
+    "estoque": 45,
+    "tags": ["eletrônicos", "periféricos", "gamer"],
+    "marca": "MechaPro",
+    "sku": "ELE-MEC-RGB-002",
+    "peso": 1.2,
+    "dimensoes": {
+      "largura": 45.0,
+      "altura": 12.5,
+      "profundidade": 25.0
+    },
+    "garantia": "2 anos de garantia",
+    "envio": "envio em 1-2 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Excelente qualidade e muito responsivo!",
+        "data": "2025-11-20T14:30:00.000Z",
+        "nome_avaliador": "Carlos Mendes",
+        "email_avaliador": "carlos.mendes@mail.com"
+      }
+    ],
+    "politica_reembolso": "30 dias de reembolso garantido",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:00:00.000Z",
+      "atualizado_em": "2025-11-20T10:00:00.000Z",
+      "codigo_barra": "8945672345892"
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Fone de Ouvido Wireless Noise Cancelling",
+    "descricao": "Fone de ouvido com cancelamento ativo de ruído, som imersivo em 360° e bateria de até 40 horas. Perfeito para trabalho e entretenimento.",
+    "categoria": "áudio",
+    "preco": 599.99,
+    "porcentagem_desconto": 20.0,
+    "avaliacao": 4.7,
+    "estoque": 32,
+    "tags": ["áudio", "wireless", "cancelamento de ruído"],
+    "marca": "SoundWave",
+    "sku": "AUD-SOW-WIR-003",
+    "peso": 0.25,
+    "dimensoes": {
+      "largura": 20.0,
+      "altura": 18.5,
+      "profundidade": 8.0
+    },
+    "garantia": "18 meses de garantia",
+    "envio": "envio em 2-3 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Melhor fone que já comprei!",
+        "data": "2025-11-19T11:20:00.000Z",
+        "nome_avaliador": "Marina Silva",
+        "email_avaliador": "marina.silva@mail.com"
+      }
+    ],
+    "politica_reembolso": "14 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:05:00.000Z",
+      "atualizado_em": "2025-11-20T10:05:00.000Z",
+      "codigo_barra": "7823945678234"
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Mochila Executiva Anti-Roubo",
+    "descricao": "Mochila de alta capacidade com sistema de proteção anti-roubo, compartimentos inteligentes e material resistente à água. Ideal para viagens e trabalho.",
+    "categoria": "acessórios",
+    "preco": 189.99,
+    "porcentagem_desconto": 25.0,
+    "avaliacao": 4.5,
+    "estoque": 67,
+    "tags": ["acessórios", "viagem", "segurança"],
+    "marca": "SafeBag",
+    "sku": "ACE-SAB-BAK-004",
+    "peso": 0.9,
+    "dimensoes": {
+      "largura": 30.0,
+      "altura": 50.0,
+      "profundidade": 18.0
+    },
+    "garantia": "1 ano de garantia",
+    "envio": "envio em 3-5 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 4,
+        "comentario": "Ótima qualidade, muito prática!",
+        "data": "2025-11-18T09:15:00.000Z",
+        "nome_avaliador": "João Paulo",
+        "email_avaliador": "joao.paulo@mail.com"
+      }
+    ],
+    "politica_reembolso": "30 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:10:00.000Z",
+      "atualizado_em": "2025-11-20T10:10:00.000Z",
+      "codigo_barra": "5647829304756"
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Smartwatch Fitness Pro",
+    "descricao": "Relógio inteligente com monitor de frequência cardíaca, rastreamento de atividades, GPS integrado e tela AMOLED. Acompanhe sua saúde em tempo real.",
+    "categoria": "wearables",
+    "preco": 799.99,
+    "porcentagem_desconto": 12.0,
+    "avaliacao": 4.6,
+    "estoque": 28,
+    "tags": ["wearables", "fitness", "saúde"],
+    "marca": "FitTech",
+    "sku": "WEA-FIT-SMA-005",
+    "peso": 0.05,
+    "dimensoes": {
+      "largura": 4.5,
+      "altura": 4.2,
+      "profundidade": 1.2
+    },
+    "garantia": "24 meses de garantia",
+    "envio": "envio em 2-3 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Precisão impecável no rastreamento!",
+        "data": "2025-11-17T16:45:00.000Z",
+        "nome_avaliador": "Fernanda Costa",
+        "email_avaliador": "fernanda.costa@mail.com"
+      }
+    ],
+    "politica_reembolso": "60 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:15:00.000Z",
+      "atualizado_em": "2025-11-20T10:15:00.000Z",
+      "codigo_barra": "9283746592837"
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Câmera Mirrorless 4K",
+    "descricao": "Câmera digital mirrorless profissional com sensor full-frame, gravação em 4K 60fps, autofoco rápido e corpo resistente. Perfeita para fotógrafos e cineastas.",
+    "categoria": "fotografia",
+    "preco": 2499.99,
+    "porcentagem_desconto": 8.0,
+    "avaliacao": 4.9,
+    "estoque": 12,
+    "tags": ["fotografia", "câmera", "profissional"],
+    "marca": "ImagePro",
+    "sku": "FOT-IMG-CAM-006",
+    "peso": 0.73,
+    "dimensoes": {
+      "largura": 13.5,
+      "altura": 9.7,
+      "profundidade": 8.8
+    },
+    "garantia": "3 anos de garantia",
+    "envio": "envio em 5-7 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Qualidade de imagem extraordinária!",
+        "data": "2025-11-16T13:30:00.000Z",
+        "nome_avaliador": "Roberto Santos",
+        "email_avaliador": "roberto.santos@mail.com"
+      }
+    ],
+    "politica_reembolso": "Sem reembolso para produtos de alto valor",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:20:00.000Z",
+      "atualizado_em": "2025-11-20T10:20:00.000Z",
+      "codigo_barra": "4756283947562"
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Luminária de Escritório LED Ajustável",
+    "descricao": "Luminária de escritório com LED de baixa emissão de calor, braço articulado ajustável, controle de intensidade e temperatura de cor. Reduz fadiga visual.",
+    "categoria": "iluminação",
+    "preco": 149.99,
+    "porcentagem_desconto": 18.0,
+    "avaliacao": 4.4,
+    "estoque": 89,
+    "tags": ["iluminação", "escritório", "LED"],
+    "marca": "BrightDesk",
+    "sku": "ILU-BRI-LED-007",
+    "peso": 0.65,
+    "dimensoes": {
+      "largura": 12.0,
+      "altura": 55.0,
+      "profundidade": 10.0
+    },
+    "garantia": "2 anos de garantia",
+    "envio": "envio em 2-3 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 4,
+        "comentario": "Luz natural e confortável para trabalhar.",
+        "data": "2025-11-15T10:00:00.000Z",
+        "nome_avaliador": "Ana Oliveira",
+        "email_avaliador": "ana.oliveira@mail.com"
+      }
+    ],
+    "politica_reembolso": "30 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:25:00.000Z",
+      "atualizado_em": "2025-11-20T10:25:00.000Z",
+      "codigo_barra": "6384927564839"
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Cadeira Gamer Ergonômica",
+    "descricao": "Cadeira gamer com design ergonômico, apoio lombar ajustável, repousa-braços e encosto reclinável. Conforto máximo para longas sessões de jogo ou trabalho.",
+    "categoria": "móveis",
+    "preco": 1199.99,
+    "porcentagem_desconto": 22.0,
+    "avaliacao": 4.7,
+    "estoque": 18,
+    "tags": ["móveis", "gamer", "ergonomia"],
+    "marca": "ComfortGaming",
+    "sku": "MOV-COM-CHA-008",
+    "peso": 28.5,
+    "dimensoes": {
+      "largura": 65.0,
+      "altura": 130.0,
+      "profundidade": 50.0
+    },
+    "garantia": "5 anos de garantia",
+    "envio": "envio em 7-10 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Cadeira excelente, muito confortável!",
+        "data": "2025-11-14T14:20:00.000Z",
+        "nome_avaliador": "Lucas Ferreira",
+        "email_avaliador": "lucas.ferreira@mail.com"
+      }
+    ],
+    "politica_reembolso": "7 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:30:00.000Z",
+      "atualizado_em": "2025-11-20T10:30:00.000Z",
+      "codigo_barra": "7465938274659"
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Garrafa Térmica Inteligente",
+    "descricao": "Garrafa térmica com display LED, sensor de temperatura, material isolante de dupla parede. Mantém bebidas quentes por 24h ou frias por 36h.",
+    "categoria": "acessórios",
+    "preco": 129.99,
+    "porcentagem_desconto": 10.0,
+    "avaliacao": 4.3,
+    "estoque": 156,
+    "tags": ["acessórios", "bebidas", "inteligente"],
+    "marca": "ThermoSmart",
+    "sku": "ACE-THE-GAR-009",
+    "peso": 0.35,
+    "dimensoes": {
+      "largura": 8.5,
+      "altura": 25.0,
+      "profundidade": 8.5
+    },
+    "garantia": "1 ano de garantia",
+    "envio": "envio em 2-3 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 4,
+        "comentario": "Funciona muito bem, recomendo!",
+        "data": "2025-11-13T09:45:00.000Z",
+        "nome_avaliador": "Patricia Gomes",
+        "email_avaliador": "patricia.gomes@mail.com"
+      }
+    ],
+    "politica_reembolso": "15 dias de reembolso",
+    "ordem_pedido_minima": 2,
+    "metadados": {
+      "criado_em": "2025-11-20T10:35:00.000Z",
+      "atualizado_em": "2025-11-20T10:35:00.000Z",
+      "codigo_barra": "8576294837562"
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Kit Skincare Premium Coreia",
+    "descricao": "Kit completo de skincare coreano com 7 produtos: limpador, tônico, essência, sérum, máscara, creme e protetor solar. Textura leve e absorção rápida.",
+    "categoria": "beleza",
+    "preco": 249.99,
+    "porcentagem_desconto": 5.0,
+    "avaliacao": 4.8,
+    "estoque": 42,
+    "tags": ["beleza", "skincare", "coreano"],
+    "marca": "K-Beauty Essence",
+    "sku": "BEA-KBE-SKI-010",
+    "peso": 0.8,
+    "dimensoes": {
+      "largura": 20.0,
+      "altura": 25.0,
+      "profundidade": 15.0
+    },
+    "garantia": "Sem garantia aplicável",
+    "envio": "envio em 3-5 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 5,
+        "comentario": "Minha pele ficou radiante!",
+        "data": "2025-11-12T16:10:00.000Z",
+        "nome_avaliador": "Juliana Martins",
+        "email_avaliador": "juliana.martins@mail.com"
+      }
+    ],
+    "politica_reembolso": "7 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:40:00.000Z",
+      "atualizado_em": "2025-11-20T10:40:00.000Z",
+      "codigo_barra": "9384756283945"
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Carregador Solar Portátil",
+    "descricao": "Carregador solar portátil com capacidade de 20000mAh, painéis solares de alta eficiência, entrada USB-C e saída dupla. Ideal para trilhas e acampamentos.",
+    "categoria": "eletrônicos",
+    "preco": 199.99,
+    "porcentagem_desconto": 16.0,
+    "avaliacao": 4.5,
+    "estoque": 74,
+    "tags": ["eletrônicos", "energia", "portátil"],
+    "marca": "SolarPower",
+    "sku": "ELE-SOL-CAR-011",
+    "peso": 0.45,
+    "dimensoes": {
+      "largura": 16.0,
+      "altura": 10.0,
+      "profundidade": 2.5
+    },
+    "garantia": "2 anos de garantia",
+    "envio": "envio em 2-3 dias úteis",
+    "status_disponibilidade": "em estoque",
+    "avaliacoes": [
+      {
+        "avaliacao": 4,
+        "comentario": "Excelente para viagens ao ar livre.",
+        "data": "2025-11-11T12:30:00.000Z",
+        "nome_avaliador": "Diego Alves",
+        "email_avaliador": "diego.alves@mail.com"
+      }
+    ],
+    "politica_reembolso": "30 dias de reembolso",
+    "ordem_pedido_minima": 1,
+    "metadados": {
+      "criado_em": "2025-11-20T10:45:00.000Z",
+      "atualizado_em": "2025-11-20T10:45:00.000Z",
+      "codigo_barra": "4928374956283"
+    }
+  }
+]

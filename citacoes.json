@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "citacao": "Seu coração é do tamanho de um oceano. Vá se encontrar em suas profundidades ocultas.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 2,
+    "citacao": "Coração, sê corajoso. Se você não puder ser corajoso, apenas vá. A glória do amor não é uma coisa pequena.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 3,
+    "citacao": "Não acredito em fracasso. Não é fracasso se você desfrutou do processo.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "id": 4,
+    "citacao": "A maneira de começar é parar de falar e começar a fazer.",
+    "autor": "Walt Disney"
+  },
+  {
+    "id": 5,
+    "citacao": "Quando fico em silêncio, tenho trovão escondido dentro.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 6,
+    "citacao": "Sacrifiquemos nosso hoje para que nossos filhos possam ter um amanhã melhor.",
+    "autor": "Abdul Kalam"
+  },
+  {
+    "id": 7,
+    "citacao": "Deixe a beleza que amamos ser o que fazemos. Há centenas de maneiras de se ajoelhar e beijar o chão.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 8,
+    "citacao": "Não importa o que as pessoas digam, palavras e ideias podem mudar o mundo.",
+    "autor": "Robin Williams"
+  },
+  {
+    "id": 9,
+    "citacao": "Sucesso é um padrão pessoal, alcançar o mais alto que está em nós, tornar-se tudo que podemos ser.",
+    "autor": "Zig Ziglar"
+  },
+  {
+    "id": 10,
+    "citacao": "Não é exagero se você pode sustentar.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 11,
+    "citacao": "Faça a coisa certa. Isso satisfará algumas pessoas e assombrará o resto.",
+    "autor": "Mark Twain"
+  },
+  {
+    "id": 12,
+    "citacao": "Inovação distingue um líder de um seguidor.",
+    "autor": "Steve Jobs"
+  },
+  {
+    "id": 13,
+    "citacao": "As coisas devem ser feitas da forma mais simples possível, mas não mais simples que isso.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "id": 14,
+    "citacao": "Ontem eu era inteligente, então quis mudar o mundo. Hoje sou sábio, então estou mudando a mim mesmo.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 15,
+    "citacao": "Acredite que pode e você está na metade do caminho.",
+    "autor": "Theodore Roosevelt"
+  },
+  {
+    "id": 16,
+    "citacao": "Não conte os dias, faça os dias contarem.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 17,
+    "citacao": "As raízes da educação são amargas, mas o fruto é doce.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 18,
+    "citacao": "Quando faço bem, me sinto bem. Quando faço mal, me sinto mal. Essa é minha religião.",
+    "autor": "Abraham Lincoln"
+  },
+  {
+    "id": 19,
+    "citacao": "Não leia histórias de sucesso, você apenas receberá uma mensagem. Leia histórias de fracasso, você terá algumas ideias para conseguir sucesso.",
+    "autor": "Abdul Kalam"
+  },
+  {
+    "id": 20,
+    "citacao": "A única beleza duradoura é a beleza do coração.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 21,
+    "citacao": "Sucesso não é alcançado ganhando o tempo todo. O verdadeiro sucesso vem quando nos levantamos depois de caermos.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 22,
+    "citacao": "A melhor maneira de fazer seus sonhos ficarem realidade é acordar.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 23,
+    "citacao": "Não sou este cabelo. Não sou esta pele. Sou a alma que vive dentro.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 24,
+    "citacao": "Educação é o que permanece após você ter esquecido o que aprendeu na escola.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "id": 25,
+    "citacao": "O que você pode fazer para promover a paz mundial? Vá para casa e ame sua família.",
+    "autor": "Mãe Teresa"
+  },
+  {
+    "id": 26,
+    "citacao": "Seja ativo! Assuma responsabilidade! Trabalhe pelas coisas em que acredita. Se não fizer isso, está entregando seu destino a outros.",
+    "autor": "Abdul Kalam"
+  },
+  {
+    "id": 27,
+    "citacao": "Você sabe que está no caminho do sucesso se faria seu trabalho e não seria pago por ele.",
+    "autor": "Oprah Winfrey"
+  },
+  {
+    "id": 28,
+    "citacao": "Não fique sentado e esperando. Saia por aí, sinta a vida. Toque o sol e mergulhe no mar.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 29,
+    "citacao": "A escuridão não pode expulsar a escuridão; apenas a luz pode fazer isso. O ódio não pode expulsar o ódio; apenas o amor pode fazer isso.",
+    "autor": "Martin Luther King Jr."
+  },
+  {
+    "id": 30,
+    "citacao": "O silêncio dá respostas.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 31,
+    "citacao": "Ser capaz de dar riquezas é obrigatório se você quiser possuí-las. Esta é a única maneira de ser verdadeiramente rico.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 32,
+    "citacao": "A pergunta mais persistente e urgente da vida é: 'O que você está fazendo pelos outros?'",
+    "autor": "Martin Luther King Jr."
+  },
+  {
+    "id": 33,
+    "citacao": "Nunca faça nada contra a consciência, mesmo que o Estado exija.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "id": 34,
+    "citacao": "Você escapou da gaiola. Suas asas estão estendidas. Agora voe.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 35,
+    "citacao": "Campeões continuam jogando até acertarem.",
+    "autor": "Billie Jean King"
+  },
+  {
+    "id": 36,
+    "citacao": "É a repetição de afirmações que leva à crença. E uma vez que essa crença se torna uma convicção profunda, as coisas começam a acontecer.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 37,
+    "citacao": "Sucesso não é final, fracasso não é fatal: é a coragem de continuar que conta.",
+    "autor": "Winston Churchill"
+  },
+  {
+    "id": 38,
+    "citacao": "Não se envergonhe de seus fracassos, aprenda com eles e comece novamente.",
+    "autor": "Richard Branson"
+  },
+  {
+    "id": 39,
+    "citacao": "Minha religião é muito simples. Minha religião é bondade.",
+    "autor": "Dalai Lama"
+  },
+  {
+    "id": 40,
+    "citacao": "Todos os grandes feitos requerem tempo.",
+    "autor": "Maya Angelou"
+  },
+  {
+    "id": 41,
+    "citacao": "O amor é a ponte entre você e tudo.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 42,
+    "citacao": "Se podem fazer penicilina do pão mofado, então eles podem fazer alguma coisa com você.",
+    "autor": "Muhammad Ali"
+  },
+  {
+    "id": 43,
+    "citacao": "A vontade de vencer, o desejo de ter sucesso, o impulso de atingir seu potencial máximo... Estas são as chaves que abrirão a porta para a excelência pessoal.",
+    "autor": "Confúcio"
+  },
+  {
+    "id": 44,
+    "citacao": "O que machuca você, abençoa você. A escuridão é sua vela.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 45,
+    "citacao": "Nunca, nunca, nunca desista.",
+    "autor": "Winston Churchill"
+  },
+  {
+    "id": 46,
+    "citacao": "Dê-me seis horas para cortar uma árvore e passarei as primeiras quatro afiando o machado.",
+    "autor": "Abraham Lincoln"
+  },
+  {
+    "id": 47,
+    "citacao": "Os dois dias mais importantes de sua vida são o dia em que você nasceu e o dia em que descobre o porquê.",
+    "autor": "Mark Twain"
+  },
+  {
+    "id": 48,
+    "citacao": "Dance, e torne alegre o amor ao seu redor. Dance, e seus véus que ocultam a Luz se tornarão uma pilha a seus pés.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 49,
+    "citacao": "Levante sua voz, não a voz. É a chuva que faz as flores crescerem, não o trovão.",
+    "autor": "Rumi"
+  },
+  {
+    "id": 50,
+    "citacao": "Deixe a beleza do que você ama ser o que você faz.",
+    "autor": "Rumi"
+  }
+]

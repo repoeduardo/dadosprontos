@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "citacao": "A medida de uma pessoa é aquilo que ela faz com o poder que tem.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 2,
+    "citacao": "O homem é um animal político, destinado a viver em sociedade.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 3,
+    "citacao": "Não é o crítico que importa; importa aquele que está de fato na arena.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 4,
+    "citacao": "A excelência não é um ato, mas um hábito.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 5,
+    "citacao": "A virtude é um hábito conquistado pela repetição constante de atos virtuosos.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 6,
+    "citacao": "Conhecer-se a si mesmo é o começo da sabedoria.",
+    "autor": "Platão"
+  },
+  {
+    "id": 7,
+    "citacao": "A educação é a arte de levar as crianças à razão.",
+    "autor": "Platão"
+  },
+  {
+    "id": 8,
+    "citacao": "Uma vida sem exame não merece ser vivida.",
+    "autor": "Platão"
+  },
+  {
+    "id": 9,
+    "citacao": "O homem que não questiona nunca descobrirá nada.",
+    "autor": "Platão"
+  },
+  {
+    "id": 10,
+    "citacao": "A beleza é verdade e a verdade é beleza.",
+    "autor": "Platão"
+  },
+  {
+    "id": 11,
+    "citacao": "A morte não é nada de se temer. Quando estamos aqui, a morte não está; quando a morte está aqui, nós não estamos.",
+    "autor": "Epicuro"
+  },
+  {
+    "id": 12,
+    "citacao": "O início é a parte mais importante do trabalho.",
+    "autor": "Platão"
+  },
+  {
+    "id": 13,
+    "citacao": "Nem todo aquele que sofre é miserável; existe grandeza na resignação paciente.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 14,
+    "citacao": "Não é o homem que tem muito que é rico, mas aquele que precisa de pouco.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 15,
+    "citacao": "A verdadeira liberdade é poder viver de acordo com a razão.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 16,
+    "citacao": "Sê duro com tigo mesmo e indulgente com os outros.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 17,
+    "citacao": "O tempo que você gasta com raiva é tempo que você gasta longe da paz.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 18,
+    "citacao": "Aquele que controla sua raiva controla seu destino.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 19,
+    "citacao": "A morte nos torna iguais a todos.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 20,
+    "citacao": "Uma ferida aberta nunca cicatriza se você continuar tocando nela.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 21,
+    "citacao": "A maior riqueza é um corpo são e um espírito tranquilo.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 22,
+    "citacao": "Não basta ter uma boa intenção; também é necessário o esforço.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 23,
+    "citacao": "Você será capaz de suportar todas as adversidades se apenas as considerasse como exercício.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 24,
+    "citacao": "Qualquer coisa que possa servir de alimento para o corpo pode prejudicar a alma.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 25,
+    "citacao": "O homem deve temer a pobreza de alma, não a pobreza de bolso.",
+    "autor": "Sêneca"
+  },
+  {
+    "id": 26,
+    "citacao": "Ninguém é tão grande para estar acima da lei.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 27,
+    "citacao": "Você tem poder sobre sua mente - não sobre eventos externos. Realize isto e você encontrará força.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 28,
+    "citacao": "A felicidade depende de nós mesmos.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 29,
+    "citacao": "Se você julga as pessoas, não tem tempo para amá-las.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 30,
+    "citacao": "O obstáculo é o caminho.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 31,
+    "citacao": "A morte nos espera a todos. Então viva bem.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 32,
+    "citacao": "Você não controla o que acontece. Você controla como reage.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 33,
+    "citacao": "Lembre-se: você é um ator em uma peça, o tipo é escolhido pelo autor.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 34,
+    "citacao": "O que importa não é aquilo que acontece conosco, mas sim como respondemos.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 35,
+    "citacao": "Somente você pode controlar seus pensamentos, portanto não deixe que os pensamentos dos outros os controlem.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 36,
+    "citacao": "A morte é o fim de todas as sensações e desejos.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 37,
+    "citacao": "Não é mais a dor que nos causa sofrimento, mas sim nossos julgamentos sobre a dor.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 38,
+    "citacao": "Tudo é impermanente, tudo está sempre mudando.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 39,
+    "citacao": "Sou o dono do meu destino; sou o capitão da minha alma.",
+    "autor": "Marcos Aurélio"
+  },
+  {
+    "id": 40,
+    "citacao": "A maior vitória é a conquista de si mesmo.",
+    "autor": "Platão"
+  },
+  {
+    "id": 41,
+    "citacao": "Se queres melhorar o mundo, comece por melhorar a si mesmo.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 42,
+    "citacao": "Somos responsáveis por nossas ações, não por seus resultados.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 43,
+    "citacao": "A liberdade é não temer aquilo que temes.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 44,
+    "citacao": "Os ricos construem castelos; os pobres constroem esperança.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 45,
+    "citacao": "É impossível para um homem aprender aquilo que ele já pensa que sabe.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 46,
+    "citacao": "Ninguém pode te ferir sem tua permissão.",
+    "autor": "Epicteto"
+  },
+  {
+    "id": 47,
+    "citacao": "O verdadeiro guerreiro vence suas próprias paixões.",
+    "autor": "Platão"
+  },
+  {
+    "id": 48,
+    "citacao": "A coragem é a virtude que sustém todas as outras virtudes.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 49,
+    "citacao": "Uma amizade baseada na virtude é a mais nobre das amizades.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 50,
+    "citacao": "O homem feliz é aquele que vive em conformidade com a razão.",
+    "autor": "Aristóteles"
+  },
+  {
+    "id": 51,
+    "citacao": "A única verdadeira sabedoria é em conhecer que você nada sabe.",
+    "autor": "Sócrates"
+  },
+  {
+    "id": 52,
+    "citacao": "A vida sem análise não vale a pena ser vivida.",
+    "autor": "Sócrates"
+  },
+  {
+    "id": 53,
+    "citacao": "Para encontrar a si mesmo, pense por si mesmo.",
+    "autor": "Sócrates"
+  },
+  {
+    "id": 54,
+    "citacao": "A ignorância é a causa de todo o mal.",
+    "autor": "Sócrates"
+  },
+  {
+    "id": 55,
+    "citacao": "Ser consciente de que você é ignorante é um grande passo para o conhecimento.",
+    "autor": "Sócrates"
+  }
+]
