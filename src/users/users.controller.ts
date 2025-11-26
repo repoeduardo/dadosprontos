@@ -18,6 +18,8 @@ export class UsersController {
     @Query('limite') limite?: string,
     @Query('pulo') pulo?: string,
     @Query('selecione') selecione?: string,
+    @Query('ordenarPor') ordenarPor?: string,
+    @Query('ordem') ordem?: string,
   ) {
     if (!chave || !valor) {
       throw new BadRequestException(
@@ -28,7 +30,15 @@ export class UsersController {
     const limit = limite ? parseInt(limite, 10) : 10;
     const skip = pulo ? parseInt(pulo, 10) : 0;
 
-    return this.usersService.filterBy(chave, valor, limit, skip, selecione);
+    return this.usersService.filterBy(
+      chave,
+      valor,
+      limit,
+      skip,
+      selecione,
+      ordenarPor,
+      ordem,
+    );
   }
 
   @Get('aleatorios')
@@ -46,10 +56,12 @@ export class UsersController {
     @Query('limite') limite?: string,
     @Query('pulo') pulo?: string,
     @Query('selecione') selecione?: string,
+    @Query('ordenarPor') ordenarPor?: string,
+    @Query('ordem') ordem?: string,
   ) {
     const limit = limite ? parseInt(limite, 10) : 10;
     const skip = pulo ? parseInt(pulo, 10) : 0;
-    return this.usersService.findAll(limit, skip, selecione);
+    return this.usersService.findAll(limit, skip, selecione, ordenarPor, ordem);
   }
 
   @Get(':id')

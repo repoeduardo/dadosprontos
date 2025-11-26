@@ -14,7 +14,13 @@ export class UsersService {
     @InjectRepository(User) private readonly userRepository: Repository<User>,
   ) {}
 
-  async findAll(limit: number = 10, skip: number = 0, select?: string) {
+  async findAll(
+    limit: number = 10,
+    skip: number = 0,
+    select?: string,
+    ordenarPor?: string,
+    ordem?: string,
+  ) {
     if (limit < 0 || skip < 0) {
       throw new BadRequestException(
         'Limite e pulo devem ser números positivos',
@@ -30,6 +36,10 @@ export class UsersService {
     if (select) {
       const fields = this.validateAndGetFields(select);
       queryBuilder.select(fields.map((field) => `user.${field}`));
+    }
+
+    if (ordenarPor) {
+      this.applyOrdering(queryBuilder, ordenarPor, ordem);
     }
 
     // Retorna todos se limite = 0
@@ -68,6 +78,8 @@ export class UsersService {
     limit: number = 10,
     skip: number = 0,
     select?: string,
+    ordenarPor?: string,
+    ordem?: string,
   ) {
     if (limit < 0 || skip < 0) {
       throw new BadRequestException(
@@ -82,6 +94,10 @@ export class UsersService {
     if (select) {
       const fields = this.validateAndGetFields(select);
       queryBuilder.select(fields.map((field) => `user.${field}`));
+    }
+
+    if (ordenarPor) {
+      this.applyOrdering(queryBuilder, ordenarPor, ordem);
     }
 
     // Lógica do Filtro Dinâmico
@@ -204,6 +220,7 @@ export class UsersService {
     }
     return users;
   }
+
   private validateAndGetFields(select: string): string[] {
     const fields = select.split(',').map((field) => field.trim());
     const metadata = this.userRepository.metadata;
@@ -223,5 +240,41 @@ export class UsersService {
     }
 
     return fields;
+  }
+
+  private applyOrdering(
+    queryBuilder: any,
+    orderBy: string,
+    order?: string,
+  ): void {
+    const metadata = this.userRepository.metadata;
+    const validFields = metadata.columns.map((col) => col.propertyName);
+
+    if (!validFields.includes(orderBy)) {
+      throw new BadRequestException(
+        `Campo inválido para ordenação: ${orderBy}`,
+      );
+    }
+
+    // Validar e normalizar a ordem
+    const normalizedOrder = order?.toLowerCase();
+
+    if (
+      normalizedOrder &&
+      !['crescente', 'decrescente', 'asc', 'desc'].includes(normalizedOrder)
+    ) {
+      throw new BadRequestException(
+        'Ordem deve ser "crescente", "decrescente", "asc" ou "desc"',
+      );
+    }
+
+    // Mapear para ASC/DESC do TypeORM
+    let direction: 'ASC' | 'DESC' = 'ASC';
+
+    if (normalizedOrder === 'decrescente' || normalizedOrder === 'desc') {
+      direction = 'DESC';
+    }
+
+    queryBuilder.orderBy(`user.${orderBy}`, direction);
   }
 }

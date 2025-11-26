@@ -1,40 +1,54 @@
-# Usuarios 
+@baseUrl = http://localhost:3000
 
-### Unico usuário
-GET http://localhost:3000/usuarios/3
+# Usuários 
+
+### Único usuário
+GET {{baseUrl}}/usuarios/3
 
 ### Todos os usuários
-GET http://localhost:3000/usuarios/
+GET {{baseUrl}}/usuarios/
 
 ### Usuários aleatórios
-GET http://localhost:3000/usuarios/aleatorios
+GET {{baseUrl}}/usuarios/aleatorios
 
-### Todos os campos
-GET http://localhost:3000/usuarios?limite=10&pulo=0
+### Todos os campos (primeira página)
+GET {{baseUrl}}/usuarios?limite=10&pulo=0
 
 ### Apenas nome e sobrenome
-GET http://localhost:3000/usuarios?selecione=nome,sobrenome
+GET {{baseUrl}}/usuarios?selecione=nome,sobrenome
 
 ### Campos específicos
-GET http://localhost:3000/usuarios?limite=10&pulo=0&selecione=nome,sobrenome,email
+GET {{baseUrl}}/usuarios?limite=10&pulo=0&selecione=nome,sobrenome,email
 
 ### Todos os usuários com campos específicos
-GET http://localhost:3000/usuarios?limite=0&selecione=nome,idade
+GET {{baseUrl}}/usuarios?limite=0&selecione=nome,idade
 
 ### Segunda página com campos específicos
-GET http://localhost:3000/usuarios?limite=10&pulo=10&selecione=nome,email,telefone
+GET {{baseUrl}}/usuarios?limite=10&pulo=10&selecione=nome,email,telefone
 
 ### Filtro simples
-GET http://localhost:3000/usuarios/filtrar?chave=nome&valor=Lucas
+GET {{baseUrl}}/usuarios/filtrar?chave=nome&valor=Lucas
 
 ### Filtro aninhado (JSON)
-GET http://localhost:3000/usuarios/filtrar?chave=cabelo.cor&valor=marrom
+GET {{baseUrl}}/usuarios/filtrar?chave=cabelo.cor&valor=marrom
 
 ### Com paginação
-GET http://localhost:3000/usuarios/filtrar?chave=email&valor=joao@email.com&limite=10&pulo=0
+GET {{baseUrl}}/usuarios/filtrar?chave=email&valor=joao@email.com&limite=10&pulo=0
 
 ### Com seleção de campos
-GET http://localhost:3000/usuarios/filtrar?chave=cabelo.cor&valor=preto&selecione=nome,email
+GET {{baseUrl}}/usuarios/filtrar?chave=cabelo.cor&valor=preto&selecione=nome,email
 
 ### Retornar todos os registros filtrados
-GET http://localhost:3000/usuarios/filtrar?chave=idade&valor=25&limite=0
+GET {{baseUrl}}/usuarios/filtrar?chave=idade&valor=25&limite=0
+
+### Ordenar por nome
+GET {{baseUrl}}/usuarios?ordenarPor=nome&ordem=crescente
+
+### Ordenar por idade
+GET {{baseUrl}}/usuarios?ordenarPor=idade&ordem=decrescente
+
+### Ordenar com limite
+GET {{baseUrl}}/usuarios?limite=3&pulo=0&ordenarPor=email&ordem=desc
+
+### Filtrar e ordenar
+GET {{baseUrl}}/usuarios/filtrar?chave=sexo&valor=feminino&ordenarPor=nome&ordem=crescente
