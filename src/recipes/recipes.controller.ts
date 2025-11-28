@@ -1,11 +1,7 @@
 import {
   Controller,
   Get,
-  Post,
-  Body,
-  Patch,
   Param,
-  Delete,
   Query,
   BadRequestException,
 } from '@nestjs/common';
@@ -50,8 +46,22 @@ export class RecipesController {
   }
 
   @Get()
-  findAll() {
-    return this.recipesService.findAll();
+  findAll(
+    @Query('limite') limite?: string,
+    @Query('pulo') pulo?: string,
+    @Query('selecione') selecione?: string,
+    @Query('ordernarPor') ordenarPor?: string,
+    @Query('ordem') ordem?: string,
+  ) {
+    const limit = limite ? parseInt(limite, 10) : 10;
+    const skip = pulo ? parseInt(pulo, 10) : 0;
+    return this.recipesService.findAll(
+      limit,
+      skip,
+      selecione,
+      ordenarPor,
+      ordem,
+    );
   }
 
   @Get(':id')
