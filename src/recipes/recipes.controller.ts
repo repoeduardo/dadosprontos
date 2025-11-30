@@ -50,7 +50,7 @@ export class RecipesController {
     @Query('limite') limite?: string,
     @Query('pulo') pulo?: string,
     @Query('selecione') selecione?: string,
-    @Query('ordernarPor') ordenarPor?: string,
+    @Query('ordenarPor') ordenarPor?: string,
     @Query('ordem') ordem?: string,
   ) {
     const limit = limite ? parseInt(limite, 10) : 10;

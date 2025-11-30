@@ -45,7 +45,7 @@ GET {{baseUrl}}/usuarios/filtrar?chave=idade&valor=25&limite=0
 GET {{baseUrl}}/usuarios?ordenarPor=nome&ordem=crescente
 
 ### Ordenar por idade
-GET {{baseUrl}}/usuarios?ordenarPor=idade&ordem=decrescente
+GET {{baseUrl}}/usuarios?ordenarPor=idade&ordem=crescente
 
 ### Ordenar com limite
 GET {{baseUrl}}/usuarios?limite=3&pulo=0&ordenarPor=email&ordem=desc
@@ -75,7 +75,7 @@ GET {{baseUrl}}/receitas?selecione=nome,ingredientes
 GET {{baseUrl}}/receitas?limite=3&selecione=nome,porcoes
 
 ### Ordenar
-GET {{baseUrl}}/receitas?ordenarPor=nome&ordem=desc
+GET {{baseUrl}}/receitas?ordenarPor=nome&ordem=asc
 
 ### Ordenar com limite
 GET {{baseUrl}}/receitas?limite=3&pulo=0&ordenarPor=culinaria&ordem=desc

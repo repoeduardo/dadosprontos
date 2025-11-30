@@ -32,7 +32,7 @@ export class RecipesService {
 
     if (select) {
       const fields = this.validateAndGetFields(select);
-      queryBuilder.select(fields.map((field) => `recipe.field`));
+      queryBuilder.select(fields.map((field) => `recipe.${field}`));
     }
 
     if (ordenarPor) {
@@ -208,6 +208,6 @@ export class RecipesService {
       direction = 'DESC';
     }
 
-    queryBuilder.orderBy(`user.${orderBy}`, direction);
+    queryBuilder.orderBy(`recipe.${orderBy}`, direction);
   }
 }
