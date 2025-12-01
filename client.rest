@@ -79,3 +79,9 @@ GET {{baseUrl}}/receitas?ordenarPor=nome&ordem=asc
 
 ### Ordenar com limite
 GET {{baseUrl}}/receitas?limite=3&pulo=0&ordenarPor=culinaria&ordem=desc
+
+
+# Produtos
+
+### Busca todos os produtos
+GET {{baseUrl}}/produtos

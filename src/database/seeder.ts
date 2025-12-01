@@ -2,9 +2,14 @@ import { DataSource } from 'typeorm';
 import { Seed } from './seeds/seed.interface';
 import { UsersSeed } from './seeds/users.seed';
 import { RecipesSeed } from './seeds/recipes.seed';
+import { ProductsSeed } from './seeds/products.seed';
 
 export class Seeder {
-  private seeds: Seed[] = [new UsersSeed(), new RecipesSeed()];
+  private seeds: Seed[] = [
+    new UsersSeed(),
+    new RecipesSeed(),
+    new ProductsSeed(),
+  ];
 
   async run(dataSource: DataSource): Promise<void> {
     console.log('Iniciando seeding do banco de dados\n');
