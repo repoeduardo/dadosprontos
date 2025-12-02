@@ -27,7 +27,7 @@ export class RecipesController {
   }
 
   @Get('tags/:tag')
-  async findByTag(@Param('tag') tag: string) {
+  findByTag(@Param('tag') tag: string) {
     if (!tag || tag.trim() === '') {
       throw new BadRequestException('Tag não pode estar vazia');
     }

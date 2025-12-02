@@ -85,3 +85,15 @@ GET {{baseUrl}}/receitas?limite=3&pulo=0&ordenarPor=culinaria&ordem=desc
 
 ### Busca todos os produtos
 GET {{baseUrl}}/produtos
+
+### Busca um produto
+GET {{baseUrl}}/produtos/4
+
+### Busca 5 produtos aleatorios
+GET {{baseUrl}}/produtos/aleatorios
+
+### Busca todas as categorias do produto
+GET {{baseUrl}}/produtos/categorias
+
+### Busca todas produtos por categoria
+GET {{baseUrl}}/produtos/categorias/beleza
