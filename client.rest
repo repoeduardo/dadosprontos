@@ -97,3 +97,18 @@ GET {{baseUrl}}/produtos/categorias
 
 ### Busca todas produtos por categoria
 GET {{baseUrl}}/produtos/categorias/beleza
+
+### Todas os produtos com limite
+GET {{baseUrl}}/produtos?limite=4&pulo=0
+
+### Seleciona campos especificos
+GET {{baseUrl}}/produtos?selecione=titulo,descricao
+
+### Seleciona campos especificos com limite
+GET {{baseUrl}}/produtos?limite=3&pulo=6&selecione=titulo,preco
+
+### Ordenar
+GET {{baseUrl}}/produtos?ordenarPor=titulo&ordem=asc
+
+### Ordenar com limite
+GET {{baseUrl}}/produtos?limite=3&pulo=0&ordenarPor=preco&ordem=desc

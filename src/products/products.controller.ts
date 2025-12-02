@@ -1,4 +1,10 @@
-import { BadRequestException, Controller, Get, Param } from '@nestjs/common';
+import {
+  BadRequestException,
+  Controller,
+  Get,
+  Param,
+  Query,
+} from '@nestjs/common';
 import { ProductsService } from './products.service';
 
 @Controller('produtos')
@@ -24,9 +30,28 @@ export class ProductsController {
     return this.productsService.findRandom();
   }
 
+  @Get('procurar')
+  search(@Query('q') query: string) {
+    return this.productsService.search(query);
+  }
+
   @Get()
-  findAll() {
-    return this.productsService.findAll();
+  findAll(
+    @Query('limite') limite?: string,
+    @Query('pulo') pulo?: string,
+    @Query('selecione') selecione?: string,
+    @Query('ordenarPor') ordenarPor?: string,
+    @Query('ordem') ordem?: string,
+  ) {
+    const limit = limite ? parseInt(limite, 10) : 10;
+    const skip = pulo ? parseInt(pulo, 10) : 0;
+    return this.productsService.findAll(
+      limit,
+      skip,
+      selecione,
+      ordenarPor,
+      ordem,
+    );
   }
 
   @Get(':id')
